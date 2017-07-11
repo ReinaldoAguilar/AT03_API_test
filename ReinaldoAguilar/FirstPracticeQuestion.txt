@@ -1,0 +1,27 @@
+ Answers About Ruby
+==============================
+1.- What is ruby?
+
+Ruby is a scripting lenguaje such as perl and python also 
+It is Open source focused on simplicity and productivity
+
+2.- What pros/cons you considered from the point explained in the class
+
+Pros:
+
+* No too much code conditions
+* No more import files or classes to be
+* No need to include files/libraries
+* New simple way to define code
+* Many code already created to implement the options that you need 
+
+Cons:
+
+* No multiple inheritances
+* you should define the guideline of your own code according the 
+rules defined in the team
+
+3.- According what we talked today, what are the 3 testing tiers?
+
+Are the UI user interfaz,API Aplication programming interfaz Test ,unit test
+ 
