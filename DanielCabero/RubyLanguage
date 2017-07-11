@@ -1,0 +1,34 @@
+
+                                     Ruby
+
+1.-Whats is ruby
+    Ruby is an open source, interpreted, object-oriented programming language created by Yukihiro Matsumoto.
+    Who chose the gemstone's name to suggest "a jewel of a language."
+
+    Ruby is designed to be simple, complete, extensible, and portable.
+
+    The Ruby programming language was created by Yukihiro Matsumoto and is named after the birthstone of one his colleagues.
+    Interestingly, the pearl (as in the Perl language) is the June gemstone, while ruby is the July gemstone.
+    This makes the subtle suggestion that Ruby is a step forward from Perl.
+
+    The syntax is very basic and it is completely object-oriented.
+    This means every type of data handled by the language is treated as an object, even data types as simple as integers.
+
+    Ruby is open source and freely available for both development and deployment.
+
+2.-Pros and cons
+
+    pros                                        cons
+        Easily used                                 Slow processing
+        Not declared variables                      MultiThreads
+        Not used ";"                                Scalability issues
+        Very easy learn                             Boot Speed
+        Flexibility                                 Consume resources
+        Not implements class
+        Large community
+
+3 According what we talked today, what are the 3 testing tiers?
+
+    The fisrt level is the implement the unit test in develop fase, it is the embrace the higher test.
+    The second level is API test for testing with the data under the application, see the atributes.
+    The third level is UI test for testing the user interface the changes the variables in the user interface.
