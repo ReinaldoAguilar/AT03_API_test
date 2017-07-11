@@ -1,0 +1,31 @@
+
+What is ruby?
+
+Ruby is dynamic and open source programming language focused on simplicity and productivity. Ruby is a very high-level interpreted and object-oriented language, its elegant syntax feels natural to read and easy to write.
+The syntax of Ruby commands has many similarities to Perl, PHP and Phyton languages.
+Ruby is considered a flexible language, since it allows its users to modify it freely.
+The essential parts of Ruby can be removed or redefined at will. Functionality can be
+added to existing parts. Ruby tries not to restrict the developer.
+
+What pros/cons you considered from the point explained in the class?
+
+Advantages of Ruby:
+•	In the advantages we saw that it does not need many or too many code conditions, it is simpler than other programming languages.
+•	No import files or classes are used, no need to include files or libraries.
+•	In syntax it is not used; As in other languages.
+•	It's a new way of defining or doing code.
+•	It is very easy for other codes to implement the options they need in this language.
+
+Disadvantages of Ruby:
+
+•	You can not use multiple inheritance, as well as other languages like java.
+•	You must define the guide of your own code according to the rules defined on the computer.
+
+According what we talked today, what are the 3 testing tiers?
+
+Unit Test
+API
+UI
+
+
+
