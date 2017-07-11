@@ -1,0 +1,15 @@
+What is ruby?
+Ruby is a programming language from Japan,open code,
+ balance between simplicity and power.
+
+
+What pros/cons you considered from the point explained in the class
+-pros no define type,you declare everywhere,Libraries,Test Automation.
+-No structure to follow. 
+
+ 
+According what we talked today, what are the 3 testing tiers?
+
+Junit  test
+api   test
+UI test
