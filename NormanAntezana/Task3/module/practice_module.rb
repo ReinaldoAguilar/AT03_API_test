@@ -1,6 +1,6 @@
 
-require_relative "C:/Users/Administrator/Desktop/Api Test/project/AT03_API_test/NormanAntezana/Task3/module/greets.rb"
-
+# require_relative "C:/Users/Administrator/Desktop/Api Test/project/AT03_API_test/NormanAntezana/Task3/module/greets.rb"
+require_relative "../greets.rb"
 class PracticeModule
   include Bye
   include Greets
