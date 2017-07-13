@@ -1,0 +1,22 @@
+Let’s consider you are in a new team :
+Define which code guideline you would suggest for :
+
+Format (int, float, string)
+The value int and float must be under line example( _number, _decimal ) an String without underline to begin (  name )
+
+Classes
+Start with uppercase the word to word (Person , LiderPersonal)
+
+Methods
+have underline beetwen in action and all must be in lowercase  (calculate_average)
+
+Variables, Getter/Setter
+Must be end with under score (name_ , month_, _year_)
+
+If condition
+
+The format is:
+
+ result = (condition) ? (expression-if-true) : (expression-if-false)
+
+
