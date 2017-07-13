@@ -1,0 +1,33 @@
+                                      GUIDELINE
+
+- Format (int, float, string)
+  For integer, float, string types,the following format is taken into account.
+  Example: 
+  name = gets.to_s   
+  age = gets.to_i 
+  price = gets.to_f 
+  
+- Classes
+  The class name must always begin with a capital letter and if you have more than 
+  one word, the next word also should begin with a capital letter.
+  Example: 
+    class MiClass
+    end
+
+- Methods
+  The method name should always start with a small letter and if you
+  have more than one word,  with a capital letter.
+  Example:
+  def myMethod
+  end 
+
+- Variables
+  The variable name should always be in lowercase and low bar.
+  Example:
+  my_variable, first_variable
+
+  Getter/Setter
+  the same way that variables 
+  Example:
+  attr_reader my_getter
+  attr_writer my_settet
