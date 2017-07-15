@@ -38,14 +38,12 @@ class Exercise4
   def methodFive(valueg)
     puts "Insert a key"
     a = gets.chomp
-    b = [a]
-    puts valueg & b
+    puts valueg.has_key?(a)
   end
   def methodSix(valueg)
     puts "Insert a value"
-    a = gets.chomp.to_i
-    b = [a]
-    puts valueg & b
+    a = gets.chomp
+    puts valueg.has_value?(a)
   end
 
 end
