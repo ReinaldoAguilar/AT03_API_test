@@ -1,3 +1,16 @@
+=begin
+Create a class with :​
+1. method to create the hash, the method should ask for the length of the hash​
+  According the length defined should ask to the user for the key and for the value.​
+  Use a getter to obtain the hash created in the method​
+2. Method to print the hash key​
+3. Method to print the hash values​
+4. Method to print the hash​
+5. Method to define is a key inserted by the user, exists on the hash.​
+6. Method to define is a value inserted by the user, exists on the hash.​
+=end
+
+
 class Exercise4
   attr_reader  :b
   def methodOne
@@ -24,7 +37,7 @@ class Exercise4
   end
   def methodFive(valueg)
     puts "Insert a key"
-    a = gets.chomp.to_i
+    a = gets.chomp
     b = [a]
     puts valueg & b
   end
