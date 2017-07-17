@@ -1,0 +1,26 @@
+==== Practice #1 =====
+
+1. Whai is Ruby?
+Ruby is a cross-platform interpreted language which has many features in common with other ‘scripting’ languages such as Perl and Python. 
+The Ruby language was created by Yukihiro Matsumoto, its firts release was in 1995.
+
+2. Pros / Cons.
+
+2.1 Pros.
+	
+	*New simple way to define code.
+	*Not too hard to learn.
+	*Not need to import classes
+	*Simple sintax
+	*Plenty of online resourses.
+
+2.2 Cons.
+
+	*Syntax is very different for whom is used to using java
+
+3. What are the 3 testing tiers?
+
+    *	Unit Test
+    *	API
+    *	UI Test
+
