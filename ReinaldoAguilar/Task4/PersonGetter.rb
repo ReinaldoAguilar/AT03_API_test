@@ -9,10 +9,10 @@ You can directly print the message in the instance variable or out of the class
 =end
 
 class Persona 
- attr_writer:name
- attr_reader:name
+ attr_writer :name
+ attr_reader :name
 
- attr_accessor:mensage
+ attr_accessor :mensage
 
 end
 

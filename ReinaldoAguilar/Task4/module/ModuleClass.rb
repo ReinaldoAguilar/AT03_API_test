@@ -23,6 +23,6 @@ class ModuleClass
 
 end
 
-module_class = ModuleClass.new
+module_class = ModuleClass.instance
 module_class.printGreet
-module_class.printBye
+puts"The users doesn't perfomer any calculation #{reg.perform}"
