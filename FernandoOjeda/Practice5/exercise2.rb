@@ -75,4 +75,4 @@ d.search_userId(hash_data)
 search_user = d.hash_user
 d.search_username(search_user)
 d.display_message(hash_data)
-d.print_array(search_user)
+d.print_array(hash_data)
