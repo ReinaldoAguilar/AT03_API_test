@@ -1,0 +1,5 @@
+User_01|pass_01|/4/30/2017|tarija|
+User_02|pass_02|/10/17/2017|Beni|
+User_03|pass_03|/1/11/2017|La paz|
+User_04|pass_04|/10/9/2017|Oruro|
+User_05|pass_05|/5/14/2017|La paz|
