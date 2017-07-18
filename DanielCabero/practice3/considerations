@@ -1,0 +1,36 @@
+
+                Practice
+
+ Lets consider you are  in a new team
+ -define which code guideline you would suggest for:
+    Format(int, float, string)
+        the variables format is for the initialize is
+        with vocal in lower case for the write easily and fast.
+        Example
+            int number,
+            String name,
+
+    Classes
+        the classes should be with correct format in the name and vocal in up case,
+        methods names clear and with comments clear and precise of the actionof the method.
+
+                class Number, class Example
+
+    Variables, Getters Setters
+        the variables should be clear
+        the getters and setters should be
+         precise and comments that objects be get or  the change of attributes
+
+                number = 25,
+                getNumber(),
+
+
+    If condition
+        the if conditional should be the minor cantidad for not miss the class coverage and
+        not miss time in implemented unit test for cover the coverage.
+
+        the sintax should be clear and precise not have two or
+        more conditions in the head of the if condition.
+
+        if(condition1)          if(condition1 condition2 condition3)
+        correct                     no correct

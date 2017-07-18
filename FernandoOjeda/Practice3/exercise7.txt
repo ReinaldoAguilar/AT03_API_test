@@ -1,0 +1,50 @@
+Let’s consider you are in a new team :
+Define which code guideline you would suggest for :
+
+1. Format (int, float, string)
+The best way to use the format for the type of valiables are the following:
+ Example for Integer
+
+ String word = "Test"
+ int number = word.to_i
+
+ Example for String
+
+ int number = 1234
+ String word = number.to_s  // or we can use .to_str
+
+ Example for Float
+
+ String word = "word"
+ float f = word.to_f
+
+
+2.Classes
+
+The classes we can use the classes for default
+
+
+3. Methods
+
+For the methods we can use with parenthesis
+
+Example
+          def test(test1,test2)
+
+          end
+
+4. Variables, Getter/Setter
+
+For the variable getter and setter we can use the following:
+
+attr_reader :item_name
+attr_writer :item_name
+
+Because is better and more understand
+
+5. If condition
+
+For the condicion we can use in one line like:
+
+result = (condition) ? (expression-if-true) : (expression-if-false)
+
