@@ -23,21 +23,20 @@ class Practice1
     end
 
   end
-
   def method_format_email
     puts "Enter the email"
-    password = gets.chomp
+    email = gets.chomp
 
-    case password
-      when /^[a-zA-Z 0-9]{8,16}$/; puts "my password is : %s"%password
+    case email
+      when /^[a-z]+@[a-z]+\.com(\.bo)?$/; puts "my email is : %s"%email
       else;
-      puts "Not found username Please Again Enter"
-      puts method_password
+      puts "Not found username Please Again Enter anything@domain.com or anything@domain.com.bo"
+      puts method_format_email
     end
   end
-
 end
 
 practice1 = Practice1.new
 practice1.method_username
 practice1.method_password
+practice1.method_format_email
