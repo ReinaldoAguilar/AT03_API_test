@@ -22,63 +22,55 @@
 
 class Practice7
 attr_accessor :h
-$ctrl_name =0
-$ctrl_id =0
 
-def register_users
-  @h= {}
-  puts "how many users do you want to register?"
-  n= gets.to_i
-  n.times do
-    while $ctrl_name == 0
-      puts "please insert the user name"
-      v = gets.to_s
-      if v=~ /\b[a-z]{1,8}\b/
-        $ctrl_name =1
+
+
+  attr_reader :h
+  attr_accessor :name_user ,:id_user
+  def register
+    @h= {}
+    @nameuser=0
+    @id_user=0
+    puts "how many users do you want to register?"
+    n= gets.to_i
+    n.times do
+      while @nameuser == 0
+        puts "please insert the user name"
+        v = gets.to_s.chomp
+        if v=~ /\b[a-z]{1,8}\b/
+          @nameuser =1
+        end
       end
-    end
-    while $ctrl_id==0
-      puts "plese inster the id"
-      k= gets.to_i
-      if k=~ /^(100|[1-9][0-9]|[1-9])$/
-        puts "emtra"
-        $ctrl_id=1
+      while @id_user == 0
+        puts "please insert the id user "
+        k = gets.to_s.chomp
+        if k=~ /^([0-1]00)$|^([1-9][0-9])$|^([1-9])$/
+          @id_user =1
+        end
       end
-      @h[k]=v
+      @nameuser=0
+      @id_user=0
+      @h.store k,v
     end
 
+    return @h
   end
-end
+  def find_id id
+    # id=gets.chomp
+    puts @h.select {|key| key =~ /[#{id}]/}
+  end
 
-def find_id(id)
-  puts @h.select {|key| key =~ /[#{id}]/}
-end
+  def find_user(value)
+    puts @h.select {|value| value =~ /[#{value}]/}
+  end
 
-def find_user(value)
-  puts @h.select {|value| value =~ /[#{value}]/}
-end
-
-def group_users
-  array= []
-  @h.each_key {|key| array<<key.to_i}
-  array.collect {|x|
-    if x <= 25
-      puts 'User belongs to Group 1'
-    elsif x > 25 and x <=50
-      puts 'User belongs Group 2'
-    elsif x > 50 and x <=75
-      puts 'User belongs to Group 3'
-    elsif x > 75 and x <=100
-      puts 'User belongs to Group 4'
-    end}
 
 
 
 end
-end
-user = Practice7.new
-user.register_users
-print "Enter the id to search:"
-user.find_key gets.chomp
+value=Trabajo73.new
+print value.register
+puts "Enter the id to search:"
+value.find_id gets.chomp
 print "Enter the name to search:"
 user.find_user gets.chomp
