@@ -16,4 +16,15 @@ class Person
     puts "The names of the people are #{@h.values}"
     puts "The ID are #{@h.keys}"
   end
+
+  def good_bye
+    @h.values.each do |i| puts "good bye #{i}"
+  end
+  end
 end
+
+a= Person.new
+
+a.register_people
+a.print_people
+a.good_bye

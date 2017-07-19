@@ -3,10 +3,10 @@
   <component name="ModuleRunConfigurationManager">
     <shared />
     <local>
-      <configuration default="false" name="arrays_one" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <configuration default="false" name="user" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
         <module name="JuanAitken" />
         <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-        <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Task 5" />
+        <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Task6" />
         <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
         <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
         <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
@@ -14,14 +14,14 @@
         <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
         <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
         <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-        <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Task 5/arrays_one.rb" />
+        <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Task6/user.rb" />
         <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
         <method />
       </configuration>
-      <configuration default="false" name="arrays_two" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <configuration default="false" name="guest_singleton" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
         <module name="JuanAitken" />
         <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-        <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Task 5" />
+        <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Task6" />
         <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
         <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
         <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
@@ -29,14 +29,14 @@
         <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
         <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
         <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-        <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Task 5/arrays_two.rb" />
+        <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="C:\Users\Administrator\Desktop\Ruby\AT03_API_test\JuanAitken\Task6\guest_singleton.rb" />
         <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
         <method />
       </configuration>
-      <configuration default="false" name="hashes" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <configuration default="false" name="guess_without_singleton" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
         <module name="JuanAitken" />
         <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-        <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Task 5" />
+        <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Task6" />
         <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
         <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
         <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
@@ -44,14 +44,14 @@
         <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
         <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
         <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-        <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Task 5/hashes.rb" />
+        <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Task6/guess_without_singleton.rb" />
         <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
         <method />
       </configuration>
-      <configuration default="false" name="my_car" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <configuration default="false" name="items" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
         <module name="JuanAitken" />
         <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-        <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Task 4" />
+        <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Task6" />
         <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
         <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
         <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
@@ -59,14 +59,14 @@
         <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
         <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
         <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-        <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Task 4/my_car.rb" />
+        <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Task6/items.rb" />
         <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
         <method />
       </configuration>
-      <configuration default="false" name="person" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <configuration default="false" name="registration" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
         <module name="JuanAitken" />
         <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-        <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Task 4" />
+        <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/RubyTest" />
         <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
         <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
         <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
@@ -74,7 +74,7 @@
         <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
         <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
         <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-        <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Task 4/person.rb" />
+        <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/RubyTest/registration.rb" />
         <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
         <method />
       </configuration>
@@ -86,6 +86,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="io-console (v0.4.5, ruby-2.3.3-p222) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="test-unit (v3.1.5, ruby-2.3.3-p222) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">

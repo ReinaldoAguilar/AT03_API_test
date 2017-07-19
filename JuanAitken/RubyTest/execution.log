@@ -1,0 +1,49 @@
+Users: 3
+Amount of ussers: 3
+User name: juan
+
+id: 1
+Hash: {"1\n"=>"juan\n"}
+User name: pablo
+
+id: 2
+Hash: {"1\n"=>"juan\n", "2\n"=>"pablo\n"}
+User name: jpse
+
+id: 3
+Hash: {"1\n"=>"juan\n", "2\n"=>"pablo\n", "3\n"=>"jpse\n"}
+10 milimeters are 1 centimetersOption selected 1
+Response: y
+
+30 centimeters are 0 metersOption selected 2
+Response: y
+
+ meters are 1 kilometersOption selected 3
+Response: n
+
+Users: 3
+Amount of ussers: 3
+User name: qwer123
+
+id: 43
+Hash: {"43\n"=>"qwer123\n"}
+User name: hulo222
+
+id: 55
+Hash: {"43\n"=>"qwer123\n", "55\n"=>"hulo222\n"}
+User name: juan123
+
+id: 543
+Hash: {"43\n"=>"qwer123\n", "55\n"=>"hulo222\n", "543\n"=>"juan123\n"}
+10 milimeters are 1 centimeters
+Option selected 1
+Response: n
+
+300 centimeters are 3 meters
+Option selected 2
+Response: n
+
+ meters are 20 kilometers
+Option selected 3
+Response: n
+
