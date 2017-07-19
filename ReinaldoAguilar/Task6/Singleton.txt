@@ -1,0 +1,6 @@
+======================== Singleton ===================================
+ 1.- Should be better to use singleton for this implementation? Why?
+
+ R.- Yes, is very useful the Singleton pattern for this example,
+  for increment for visitor on page and the verification
+  on the stock of products when many user do a instance of buy.
