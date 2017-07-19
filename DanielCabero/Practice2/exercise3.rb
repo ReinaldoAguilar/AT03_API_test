@@ -1,6 +1,6 @@
 class Exercise3
 
-  #the initialize of the Exercise3 or the circle.
+  #the initialize of the Exercises3 or the circle.
   def initialize(radius)
     @radius = radius
   end

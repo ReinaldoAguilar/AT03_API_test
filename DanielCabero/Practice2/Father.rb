@@ -1,7 +1,7 @@
 class Father
   #variable class amount.
   @@amount
-  #initialize of the father class
+  #registerUsers of the father class
   def initialize(amount)
     @@amount = amount
   end
