@@ -1,0 +1,51 @@
+
+Without --dry-run
+
+ einaldoAguilar/Task7 (master)
+ $ cucumber
+ *** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansicon/) to get coloured output on Windows
+ Feature: search customer
+
+   Scenario: Search results should display a customer in the page search when pressing "enter" # features/search_custome.feature:3
+     Given A  search CUstomer page                                                             # features/step_definitions/my_steps.rb:1
+       TODO (Cucumber::Pending)
+       ./features/step_definitions/my_steps.rb:2:in `/^A  search CUstomer page$/'
+       features/search_custome.feature:4:in `Given A  search CUstomer page'
+     When I enter the search "luis antelo"                                                     # features/step_definitions/my_steps.rb:5
+     And I submit the search by pressing "enter"                                               # features/step_definitions/my_steps.rb:9
+     Then The search result is the customer that should contain the detail of custumer         # features/step_definitions/my_steps.rb:13
+
+ 1 scenario (1 pending)
+ 4 steps (3 skipped, 1 pending)
+ 0m0.037s
+
+
+
+
+ With --dry-run
+
+ $ cucumber -d
+ *** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansicon/) to get coloured output on Windows
+ Feature: search customer
+
+   Scenario: Search results should display a customer in the page search when pressing "enter" # features/search_custome.feature:3
+     Given A  search CUstomer page                                                             # features/step_definitions/my_steps.rb:1
+     When I enter the search "luis antelo"                                                     # features/step_definitions/my_steps.rb:5
+     And I submit the search by pressing "enter"                                               # features/step_definitions/my_steps.rb:9
+     Then The search result is the customer that should contain the detail of custumer         # features/step_definitions/my_steps.rb:13
+
+ 1 scenario (1 skipped)
+ 4 steps (4 skipped)
+
+Conclusion
+
+Without --dry-run
+This run all feature with step definition and you see a result with  pass, error,undefined of feature
+
+1 scenario (1 pending)
+ 4 steps (3 skipped, 1 pending)
+
+With --dry-run
+This only the file feature
+ 1 scenario (1 skipped)
+ 4 steps (4 skipped)
