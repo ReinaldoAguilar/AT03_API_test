@@ -13,3 +13,4 @@ end
 Then(/^The search result is the customer that should contain the detail of custumer$/) do
   pending
 end
+
